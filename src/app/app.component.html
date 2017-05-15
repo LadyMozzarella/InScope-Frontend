@@ -4,10 +4,10 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="#">InScope Tracker</a>
       </div>
-      <div *ngIf="isLoggedIn">
-        <p class="navbar-text navbar-right">Logged In: {{user_displayName}} ({{user_email}})<p>
+      <div *ngIf="userIsLoggedIn">
+        <p class="navbar-text navbar-right">Logged In: {{userDisplayName}} ({{userEmail}})<p>
       </div>
-      <div *ngIf="!isLoggedIn">
+      <div *ngIf="!userIsLoggedIn">
         <p class="navbar-text navbar-right">Logged Out</p>
       </div>
     </div>

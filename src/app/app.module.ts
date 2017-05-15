@@ -11,12 +11,12 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyAYoX4cEiy73_EH33dccq46GgkTA2YDbUA",
-    authDomain: "inscope-tracker-166922.firebaseapp.com",
-    databaseURL: "https://inscope-tracker-166922.firebaseio.com",
-    projectId: "inscope-tracker-166922",
-    storageBucket: "inscope-tracker-166922.appspot.com",
-    messagingSenderId: "413793528453"
+    apiKey: 'AIzaSyAYoX4cEiy73_EH33dccq46GgkTA2YDbUA',
+    authDomain: 'inscope-tracker-166922.firebaseapp.com',
+    databaseURL: 'https://inscope-tracker-166922.firebaseio.com',
+    projectId: 'inscope-tracker-166922',
+    storageBucket: 'inscope-tracker-166922.appspot.com',
+    messagingSenderId: '413793528453'
   };
 
 const routes: Routes = [
